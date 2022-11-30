@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: joojoo-eureka
+  config:
+    import: 'optional:configserver:'
+eureka:
+  server:
+    wait-time-in-ms-when-sync-empty: 60_000
